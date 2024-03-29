@@ -90,6 +90,7 @@
           else if (config.format == "ext3") then [ pkgs.e2fsprogs ]
           else if (config.format == "ext4") then [ pkgs.e2fsprogs ]
           else if (config.format == "bcachefs") then [ pkgs.bcachefs-tools ]
+          else if (config.format == "reiserfs") then [ pkgs.reiserfsprogs ]
           else [ ]
         );
       description = "Packages";
