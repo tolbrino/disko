@@ -27,6 +27,9 @@
                   "acl"
                   "nolog"
                 ];
+                extraArgs = [
+                  "-ff" # required to skip confirmation request
+                ];
               };
             };
           };
